@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "sadek's prod",
+      "description": "salam this is a product",
+      "price": "876",
+      "category": "Software",
+      "id": 1
+    },
+    {
+      "name": "sadek's prod",
+      "description": "salam this is a product",
+      "price": "876",
+      "category": "Software",
+      "id": 1
+    },
+    {
+      "name": "some hardware",
+      "description": "dddd",
+      "price": "589",
+      "category": "Hardware",
+      "id": 2
+    }
+  ]
+}

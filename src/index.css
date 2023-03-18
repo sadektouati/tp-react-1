@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+button{
+  all: unset;
+}
+
+.root {
+  min-height: 100vh;
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  height: 6rem;
+}
+
+header h1{
+  color: green;
+  margin: auto;
+}
+
+header a{
+  color: gray;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.product {
+  background: #032d4d14;
+  margin: 1.5rem 0.5rem;
+  padding: 10px 3rem;
+  cursor: pointer;
+  border: 2px solid #1746e030;
+  border-radius: 4rem;
+}
+
+.product h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product .manage{
+  display: flex;
+  gap: 1rem;
+  font-size: .8em;
+}
+
+.product .manage .edit{
+  color: rgba(27, 27, 255, 0.741);
+}
+
+.product .manage .delete{
+  color: rgba(255, 0, 0, 0.765);
+}
+
+
+.add-form {
+  width: min(25rem, 100%);
+    margin: auto;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input, .form-control textarea, .form-control select {
+  width: 100%;
+  height: 3rem;
+  padding: 0.25rem 1rem;
+  font: inherit;
+}
+
+.form-control textarea{
+  height: initial;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.welcome{
+  max-width: 30rem;
+  margin: auto;
+  padding: 1rem;
+  line-height: 1.86;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+sub{
+  font: inherit;
+}
